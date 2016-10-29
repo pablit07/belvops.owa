@@ -1,0 +1,103 @@
+20:31:21 10/17/16 9904 [notice] Starting installation of module: base
+20:31:21 10/17/16 9904 [notice] owa_request Table Created.
+20:31:21 10/17/16 9904 [notice] owa_session Table Created.
+20:31:21 10/17/16 9904 [notice] owa_document Table Created.
+20:31:21 10/17/16 9904 [notice] owa_feed_request Table Created.
+20:31:21 10/17/16 9904 [notice] owa_click Table Created.
+20:31:21 10/17/16 9904 [notice] owa_ua Table Created.
+20:31:21 10/17/16 9904 [notice] owa_referer Table Created.
+20:31:21 10/17/16 9904 [notice] owa_site Table Created.
+20:31:21 10/17/16 9904 [notice] owa_visitor Table Created.
+20:31:21 10/17/16 9904 [notice] owa_host Table Created.
+20:31:21 10/17/16 9904 [notice] owa_exit Table Created.
+20:31:21 10/17/16 9904 [notice] owa_os Table Created.
+20:31:21 10/17/16 9904 [notice] owa_impression Table Created.
+20:31:21 10/17/16 9904 [notice] owa_configuration Table Created.
+20:31:21 10/17/16 9904 [notice] owa_user Table Created.
+20:31:21 10/17/16 9904 [notice] owa_domstream Table Created.
+20:31:21 10/17/16 9904 [notice] owa_action_fact Table Created.
+20:31:21 10/17/16 9904 [notice] owa_search_term_dim Table Created.
+20:31:21 10/17/16 9904 [notice] owa_ad_dim Table Created.
+20:31:21 10/17/16 9904 [notice] owa_source_dim Table Created.
+20:31:21 10/17/16 9904 [notice] owa_campaign_dim Table Created.
+20:31:21 10/17/16 9904 [notice] owa_location_dim Table Created.
+20:31:21 10/17/16 9904 [notice] owa_commerce_transaction_fact Table Created.
+20:31:21 10/17/16 9904 [notice] owa_commerce_line_item_fact Table Created.
+20:31:21 10/17/16 9904 [notice] owa_queue_item Table Created.
+20:31:21 10/17/16 9904 [notice] owa_site_user Table Created.
+20:31:21 10/17/16 9904 [notice] Post install proceadure was a success.
+20:31:21 10/17/16 9904 [notice] Module base activated
+20:31:21 10/17/16 9904 [notice] Installation complete.
+20:31:21 10/17/16 9904 [notice] Checking for existence of default site.
+20:31:21 10/17/16 9904 [notice] Created default site.
+20:31:21 10/17/16 9904 [notice] Install Complete Flag added to configuration
+20:32:05 10/17/16 11626 [] No value passed. // #0 /home/belvede2/public_html/owa/modules/base/sitesInvocation.php(47): owa_entity->getByColumn('site_id', NULL)
+#1 /home/belvede2/public_html/owa/owa_controller.php(218): owa_sitesInvocationController->action()
+#2 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#3 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.sitesInvoc...', Array)
+#4 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#5 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#6 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#7 {main}
+20:32:13 10/17/16 11900 [] No value passed. // #0 /home/belvede2/public_html/owa/modules/base/sitesInvocation.php(47): owa_entity->getByColumn('site_id', NULL)
+#1 /home/belvede2/public_html/owa/owa_controller.php(218): owa_sitesInvocationController->action()
+#2 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#3 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.sitesInvoc...', Array)
+#4 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#5 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#6 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#7 {main}
+20:32:14 10/17/16 11911 [] No value passed. // #0 /home/belvede2/public_html/owa/modules/base/sitesInvocation.php(47): owa_entity->getByColumn('site_id', NULL)
+#1 /home/belvede2/public_html/owa/owa_controller.php(218): owa_sitesInvocationController->action()
+#2 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#3 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.sitesInvoc...', Array)
+#4 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#5 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#6 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#7 {main}
+20:32:14 10/17/16 11938 [] No value passed. // #0 /home/belvede2/public_html/owa/modules/base/sitesInvocation.php(47): owa_entity->getByColumn('site_id', NULL)
+#1 /home/belvede2/public_html/owa/owa_controller.php(218): owa_sitesInvocationController->action()
+#2 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#3 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.sitesInvoc...', Array)
+#4 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#5 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#6 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#7 {main}
+22:07:17 10/17/16 29404 [] No value passed. // #0 /home/belvede2/public_html/owa/modules/base/sitesInvocation.php(47): owa_entity->getByColumn('site_id', NULL)
+#1 /home/belvede2/public_html/owa/owa_controller.php(218): owa_sitesInvocationController->action()
+#2 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#3 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.sitesInvoc...', Array)
+#4 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#5 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#6 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#7 {main}
+22:07:37 10/17/16 30733 [] No value passed. // #0 /home/belvede2/public_html/owa/modules/base/sitesInvocation.php(47): owa_entity->getByColumn('site_id', NULL)
+#1 /home/belvede2/public_html/owa/owa_controller.php(218): owa_sitesInvocationController->action()
+#2 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#3 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.sitesInvoc...', Array)
+#4 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#5 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#6 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#7 {main}
+22:07:39 10/17/16 30782 [] No value passed. // #0 /home/belvede2/public_html/owa/modules/base/sitesInvocation.php(47): owa_entity->getByColumn('site_id', NULL)
+#1 /home/belvede2/public_html/owa/owa_controller.php(218): owa_sitesInvocationController->action()
+#2 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#3 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.sitesInvoc...', Array)
+#4 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#5 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#6 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#7 {main}
+13:00:26 10/22/16 1671 [] No value passed. // #0 /home/belvede2/public_html/owa/owa_entity.php(334): owa_entity->getByColumn('id', NULL)
+#1 /home/belvede2/public_html/owa/owa_coreAPI.php(179): owa_entity->load(NULL)
+#2 /home/belvede2/public_html/owa/modules/base/classes/goalManager.php(99): owa_coreAPI::getSiteSetting(NULL, 'goals')
+#3 /home/belvede2/public_html/owa/modules/base/classes/goalManager.php(57): owa_goalManager->loadGoals(NULL)
+#4 /home/belvede2/public_html/owa/owa_lib.php(509): owa_goalManager->__construct(NULL)
+#5 /home/belvede2/public_html/owa/owa_coreAPI.php(441): owa_lib::factory('/home/belvede2/...', 'owa_', 'goalManager', NULL)
+#6 /home/belvede2/public_html/owa/modules/base/optionsGoalEntry.php(47): owa_coreAPI::supportClassFactory('base', 'goalManager', NULL)
+#7 /home/belvede2/public_html/owa/owa_controller.php(218): owa_optionsGoalEntryController->action()
+#8 /home/belvede2/public_html/owa/owa_coreAPI.php(788): owa_controller->doAction()
+#9 /home/belvede2/public_html/owa/owa_coreAPI.php(1211): owa_coreAPI::performAction('base.optionsGoa...', Array)
+#10 /home/belvede2/public_html/owa/owa_caller.php(232): owa_coreAPI::handleRequest(NULL, '')
+#11 /home/belvede2/public_html/owa/owa_caller.php(162): owa_caller->handleRequest()
+#12 /home/belvede2/public_html/owa/index.php(46): owa_caller->handleRequestFromUrl()
+#13 {main}
