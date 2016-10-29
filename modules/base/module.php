@@ -2455,8 +2455,8 @@ class owa_baseModule extends owa_module {
 					'owa.admin.css' 	=> array(
 											'path'	=> OWA_MODULES_DIR.'base/css/owa.admin.css'
 										),
-					'owa.report.css' 	=> array(
-											'path'	=> OWA_MODULES_DIR.'base/css/owa.report.css'
+					'owa.report_new.css' 	=> array(
+											'path'	=> OWA_MODULES_DIR.'base/css/owa.report_new.css'
 										),
 			)
 		);

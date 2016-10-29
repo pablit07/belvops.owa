@@ -37,7 +37,7 @@
 
 define('OWA_DB_TYPE', 'mysql'); // options: mysql
 define('OWA_DB_NAME', 'belvede2_owa'); // name of the database
-define('OWA_DB_HOST', 'localhost'); // host name of the server housing the database
+define('OWA_DB_HOST', '127.0.0.1'); // host name of the server housing the database
 define('OWA_DB_USER', 'belvede2_owa'); // database user
 define('OWA_DB_PASSWORD', '}VklK]nw,kpT'); // database user's password
 
@@ -58,7 +58,7 @@ define('OWA_AUTH_SALT', 'ywzYOX(HQ1=Kvkd32AtAj`hT`1.i.|s?M?7?r?)sUkj7[a.#5^F{brS
  * Don't forget the slash at the end.
  */
  
-define('OWA_PUBLIC_URL', 'http://belvops.com/owa/');  
+define('OWA_PUBLIC_URL', 'http://localhost/belvops/owa/');  
 
 /** 
  * OWA ERROR HANDLER

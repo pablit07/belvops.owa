@@ -2154,6 +2154,10 @@ li.constraintRow {
 
 
 
+.cool-background {
+	background: url(../i/analytics-background.png) repeat;
+	background-size: 5%;
+}
 
 /* End of owa.report.css */ 
 
